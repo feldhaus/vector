@@ -1,0 +1,39 @@
+{
+  "name": "@feldhaus/vector",
+  "version": "1.0.0",
+  "description": "A simple vector utility library",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint src test --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint src test --ext .ts,.tsx,.js,.jsx --fix",
+    "test": "vitest",
+    "prepublishOnly": "npm run test",
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup -c",
+    "prepare": "npm run build",
+    "release": "npm version patch && git push --tags"
+  },
+  "keywords": [],
+  "author": "Maicon Feldhaus",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.13.4",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.34.8",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.6"
+  }
+}

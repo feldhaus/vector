@@ -1,0 +1,42 @@
+{
+  "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint"],
+  "settings": {
+    "import/resolver": {
+      "node": {}
+    }
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off",
+    "lines-between-class-members": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "": "never",
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.ts", // Allow devDependencies in test files
+          "**/*.spec.ts", // Allow devDependencies in spec files
+          "vitest.config.ts", // Allow devDependencies in the Vitest config
+          "rollup.config.mjs" // If you want to allow it here as well
+        ]
+      }
+    ]
+  },
+  "ignorePatterns": ["vite-env.d.ts", "node_modules", "dist"]
+}
