@@ -10,7 +10,18 @@ You can install the package via npm:
 npm install @feldhaus/vector
 ```
 
-## Example
+## Available Functions
+
+- **add**: Adds two vectors. [Source](src/add.ts)
+- **sub**: Subtracts the second vector from the first. [Source](src/sub.ts)
+- **mult**: Multiplies a vector by a scalar. [Source](src/mult.ts)
+- **div**: Divides a vector by a scalar. [Source](src/div.ts)
+- **mag**: Calculates the magnitude of a vector. [Source](src/mag.ts)
+- **magSqr**: Calculates the squared magnitude of a vector. [Source](src/magSqr.ts)
+- **angleBetween**: Calculates the angle between two vectors. [Source](src/angleBetween.ts)
+- **distanceBetween**: Calculates the distance between two vectors. [Source](src/distanceBetween.ts)
+
+## Examples
 
 ```typescript
 import { add, sub, mult, div } from '@feldhaus/vector';
