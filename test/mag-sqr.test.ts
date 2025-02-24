@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { magSqr } from '@/magSqr';
+import { magSqr } from '@/mag-sqr';
 import { Vector } from '@/types';
 
 describe('magSqr', () => {

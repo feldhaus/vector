@@ -1,4 +1,4 @@
-import { magSqr } from '@/magSqr';
+import { magSqr } from '@/mag-sqr';
 import { Vector } from '@/types';
 
 /**
