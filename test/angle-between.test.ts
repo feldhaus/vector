@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { angleBetween } from '@/angle-between';
-import { Vector } from '@/types';
+import { angleBetween, Vector } from '@/index';
 
 describe('angleBetween', () => {
   it('should return the correct angle between two vectors', () => {

@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { mult } from '@/mult';
-import { Vector } from '@/types';
+import { mult, Vector } from '@/index';
 
 describe('mult', () => {
   it('should multiply the vector by a scalar correctly', () => {

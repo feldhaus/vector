@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sub } from '@/sub';
-import { Vector } from '@/types';
+import { sub, Vector } from '@/index';
 
 describe('sub', () => {
   it('should subtract two vectors correctly', () => {

@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { mag } from '@/mag';
-import { Vector } from '@/types';
+import { mag, Vector } from '@/index';
 
 describe('mag', () => {
   it('should calculate the magnitude of a vector', () => {
