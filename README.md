@@ -12,14 +12,14 @@ npm install @feldhaus/vector
 
 ## Available Functions
 
-- **add**: Adds two vectors. [Source](src/add.ts)
-- **sub**: Subtracts the second vector from the first. [Source](src/sub.ts)
-- **mult**: Multiplies a vector by a scalar. [Source](src/mult.ts)
-- **div**: Divides a vector by a scalar. [Source](src/div.ts)
-- **mag**: Calculates the magnitude of a vector. [Source](src/mag.ts)
-- **magSqr**: Calculates the squared magnitude of a vector. [Source](src/magSqr.ts)
-- **angleBetween**: Calculates the angle between two vectors. [Source](src/angleBetween.ts)
-- **distanceBetween**: Calculates the distance between two vectors. [Source](src/distanceBetween.ts)
+- **add**: Adds two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/add.ts)
+- **sub**: Subtracts the second vector from the first. [Source](https://github.com/feldhaus/vector/blob/main/src/sub.ts)
+- **mult**: Multiplies a vector by a scalar. [Source](https://github.com/feldhaus/vector/blob/main/src/mult.ts)
+- **div**: Divides a vector by a scalar. [Source](https://github.com/feldhaus/vector/blob/main/src/div.ts)
+- **mag**: Calculates the magnitude of a vector. [Source](https://github.com/feldhaus/vector/blob/main/src/mag.ts)
+- **magSqr**: Calculates the squared magnitude of a vector. [Source](https://github.com/feldhaus/vector/blob/main/src/magSqr.ts)
+- **angleBetween**: Calculates the angle between two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/angleBetween.ts)
+- **distanceBetween**: Calculates the distance between two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/distanceBetween.ts)
 
 ## Examples
 

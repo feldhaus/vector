@@ -16,9 +16,14 @@
     "prepare": "npm run build",
     "release": "npm version patch && git push --tags"
   },
-  "keywords": [],
+  "keywords": [
+    "vector",
+    "magnitude",
+    "angleBetween",
+    "distanceBetween"
+  ],
   "author": "Maicon Feldhaus",
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "dist"
   ],
