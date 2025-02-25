@@ -5,5 +5,6 @@ export * from './div';
 export * from './mult';
 export * from './mag';
 export * from './mag-sqr';
+export * from './normalize';
 export * from './sub';
 export * from './types';
