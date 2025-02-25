@@ -18,6 +18,6 @@ import { Vector } from '@/types';
  * magSqr(vector); // Output: 5
  * ```
  */
-export function magSqr(vector: Vector) {
+export function magSqr(vector: Vector): number {
   return vector.x * vector.x + vector.y * vector.y;
 }

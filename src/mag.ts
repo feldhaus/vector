@@ -19,6 +19,6 @@ import { Vector } from '@/types';
  * mag(vector); // Output: 2.23606797749979
  * ```
  */
-export function mag(vector: Vector) {
+export function mag(vector: Vector): number {
   return Math.sqrt(magSqr(vector));
 }
