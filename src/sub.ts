@@ -9,9 +9,9 @@ import { Vector } from '@/types';
  *
  * @example
  * ```typescript
- * const vector1 = { x: 5, y: 7 };
- * const vector2 = { x: 3, y: 4 };
- * sub(vector1, vector2); // Output: { x: 2, y: 3 }
+ * const vectorA = { x: 5, y: 7 };
+ * const vectorB = { x: 3, y: 4 };
+ * sub(vectorA, vectorB); // Output: { x: 2, y: 3 }
  * ```
  */
 export function sub(vectorA: Vector, vectorB: Vector): Vector {

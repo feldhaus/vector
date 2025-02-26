@@ -9,9 +9,9 @@ import { Vector } from '@/types';
  *
  * @example
  * ```typescript
- * const vector1 = { x: 1, y: 2 };
- * const vector2 = { x: 3, y: 4 };
- * angleBetween(vector1, vector2); // Output: 0.7853981633974483 (45 degrees)
+ * const vectorA = { x: 1, y: 2 };
+ * const vectorB = { x: 3, y: 4 };
+ * angleBetween(vectorA, vectorB); // Output: 0.7853981633974483 (45 degrees)
  * ```
  */
 export function angleBetween(vectorA: Vector, vectorB: Vector): number {

@@ -9,9 +9,9 @@ import { Vector } from '@/types';
  *
  * @example
  * ```typescript
- * const vector1 = { x: 1, y: 2 };
- * const vector2 = { x: 3, y: 4 };
- * add(vector1, vector2); // Output: { x: 4, y: 6 }
+ * const vectorA = { x: 1, y: 2 };
+ * const vectorB = { x: 3, y: 4 };
+ * add(vectorA, vectorB); // Output: { x: 4, y: 6 }
  * ```
  */
 export function add(vectorA: Vector, vectorB: Vector): Vector {
