@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sub, Vector } from '@/index';
+import { sub, Vector, VECTOR_ZERO } from '@/index';
 
 describe('sub', () => {
   it('should subtract two vectors correctly', () => {
@@ -17,9 +17,7 @@ describe('sub', () => {
   });
 
   it('should handle zero values correctly', () => {
-    const vectorA: Vector = { x: 0, y: 0 };
-    const vectorB: Vector = { x: 0, y: 0 };
-    const result = sub(vectorA, vectorB);
+    const result = sub(VECTOR_ZERO, VECTOR_ZERO);
     expect(result).toEqual({ x: 0, y: 0 });
   });
 

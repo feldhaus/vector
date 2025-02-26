@@ -20,6 +20,15 @@ npm install @feldhaus/vector
 - **magSqr**: Calculates the squared magnitude of a vector. [Source](https://github.com/feldhaus/vector/blob/main/src/magSqr.ts)
 - **angleBetween**: Calculates the angle between two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/angleBetween.ts)
 - **distanceBetween**: Calculates the distance between two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/distanceBetween.ts)
+- **normalize**: Normalizes a vector to have a magnitude of 1. [Source](https://github.com/feldhaus/vector/blob/main/src/normalize.ts)
+
+## Available Constants
+
+- **VECTOR_ZERO**: A constant representing the zero vector `{ x: 0, y: 0 }`.
+- **VECTOR_UP**: A constant representing the unit vector pointing up `{ x: 0, y: 1 }`.
+- **VECTOR_DOWN**: A constant representing the unit vector pointing down `{ x: 0, y: -1 }`.
+- **VECTOR_LEFT**: A constant representing the unit vector pointing left `{ x: -1, y: 0 }`.
+- **VECTOR_RIGHT**: A constant representing the unit vector pointing right `{ x: 1, y: 0 }`.
 
 ## Examples
 

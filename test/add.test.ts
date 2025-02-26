@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { add, Vector } from '@/index';
+import { add, Vector, VECTOR_ZERO } from '@/index';
 
 describe('add', () => {
   it('should add two vectors correctly', () => {
@@ -17,10 +17,8 @@ describe('add', () => {
   });
 
   it('should handle zero values', () => {
-    const vectorA: Vector = { x: 0, y: 0 };
-    const vectorB: Vector = { x: 0, y: 0 };
-    const result = add(vectorA, vectorB);
-    expect(result).toEqual({ x: 0, y: 0 });
+    const result = add(VECTOR_ZERO, VECTOR_ZERO);
+    expect(result).toEqual(VECTOR_ZERO);
   });
 
   it('should handle large values', () => {

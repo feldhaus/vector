@@ -20,7 +20,8 @@
     "vector",
     "magnitude",
     "angleBetween",
-    "distanceBetween"
+    "distanceBetween",
+    "normalize"
   ],
   "author": "Maicon Feldhaus",
   "license": "MIT",

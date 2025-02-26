@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { magSqr, Vector } from '@/index';
+import { magSqr, Vector, VECTOR_ZERO } from '@/index';
 
 describe('magSqr', () => {
   it('should return the magnitude squared of a vector with positive components', () => {
@@ -18,8 +18,7 @@ describe('magSqr', () => {
   });
 
   it('should return 0 for a zero vector', () => {
-    const vector: Vector = { x: 0, y: 0 };
-    expect(magSqr(vector)).toBe(0);
+    expect(magSqr(VECTOR_ZERO)).toBe(0);
   });
 
   it('should return the magnitude squared of a vector with floating point components', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { div, Vector } from '@/index';
+import { div, Vector, VECTOR_ZERO } from '@/index';
 
 describe('div', () => {
   it('should divide vector by scalar correctly', () => {
@@ -25,16 +25,14 @@ describe('div', () => {
   });
 
   it('should handle zero values in vector', () => {
-    const vector: Vector = { x: 0, y: 0 };
     const scalar = 2;
-    const result = div(vector, scalar);
+    const result = div(VECTOR_ZERO, scalar);
     expect(result).toEqual({ x: 0, y: 0 });
   });
 
   it('should handle zero scalar value', () => {
-    const vector: Vector = { x: 0, y: 0 };
     const scalar = 0;
-    const result = div(vector, scalar);
+    const result = div(VECTOR_ZERO, scalar);
     expect(result.x).toBeNaN();
     expect(result.y).toBeNaN();
   });
