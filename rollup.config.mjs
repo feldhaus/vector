@@ -12,13 +12,30 @@ export default [
         sourcemap: true,
       },
       {
+        file: 'dist/index.cjs.min.js',
+        format: 'cjs',
+        sourcemap: true,
+        plugins: [terser()],
+      },
+      {
         file: 'dist/index.esm.js',
+        format: 'esm',
+        sourcemap: true,
+      },
+      {
+        file: 'dist/index.esm.min.js',
         format: 'esm',
         sourcemap: true,
         plugins: [terser()],
       },
       {
         file: 'dist/index.umd.js',
+        format: 'umd',
+        name: 'FVector',
+        sourcemap: true,
+      },
+      {
+        file: 'dist/index.umd.min.js',
         format: 'umd',
         name: 'FVector',
         sourcemap: true,
