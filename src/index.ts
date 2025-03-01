@@ -1,6 +1,7 @@
 export * from './add';
 export * from './angle-between';
 export * from './const';
+export * from './cross';
 export * from './distance-between';
 export * from './div';
 export * from './dot';

@@ -65,12 +65,13 @@ const distance = distanceBetween(vectorA, vectorB); // Output: : 1.41
 ```
 
 ```typescript
-import { dot } from '@feldhaus/vector';
+import { dot, cross } from '@feldhaus/vector';
 
 const vectorA = { x: 1, y: 2 };
 const vectorB = { x: 3, y: 4 };
 
 const dotProduct = dot(vectorA, vectorB); // Output: 11
+const crossProduct = dot(vectorA, vectorB); // Output: -2
 ```
 
 ## License

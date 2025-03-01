@@ -22,7 +22,8 @@
     "angleBetween",
     "distanceBetween",
     "normalize",
-    "dot"
+    "dot",
+    "cross"
   ],
   "author": "Maicon Feldhaus",
   "license": "MIT",
