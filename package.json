@@ -21,7 +21,8 @@
     "magnitude",
     "angleBetween",
     "distanceBetween",
-    "normalize"
+    "normalize",
+    "dot"
   ],
   "author": "Maicon Feldhaus",
   "license": "MIT",

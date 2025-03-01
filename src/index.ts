@@ -3,6 +3,7 @@ export * from './angle-between';
 export * from './const';
 export * from './distance-between';
 export * from './div';
+export * from './dot';
 export * from './mult';
 export * from './mag';
 export * from './mag-sqr';
