@@ -1,4 +1,4 @@
-import { Vector } from '@/types';
+import type { Vector } from './types';
 
 /**
  * Adds two vectors and returns the resulting vector.

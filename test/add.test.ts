@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { add, Vector, VECTOR_ZERO } from '@/index';
+import { add, Vector, VECTOR_ZERO } from 'src/index';
 
 describe('add', () => {
   it('should add two vectors correctly', () => {

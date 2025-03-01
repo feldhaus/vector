@@ -1,5 +1,5 @@
-import { magSqr } from '@/mag-sqr';
-import { Vector } from '@/types';
+import type { Vector } from './types';
+import { magSqr } from './mag-sqr';
 
 /**
  * Calculates the magnitude of a given vector.

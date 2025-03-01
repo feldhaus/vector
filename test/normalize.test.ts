@@ -5,7 +5,7 @@ import {
   VECTOR_RIGHT,
   VECTOR_UP,
   VECTOR_ZERO,
-} from '@/index';
+} from 'src/index';
 
 describe('normalize', () => {
   it('should normalize a non-zero vector', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { div, Vector, VECTOR_ZERO } from '@/index';
+import { div, Vector, VECTOR_ZERO } from 'src/index';
 
 describe('div', () => {
   it('should divide vector by scalar correctly', () => {

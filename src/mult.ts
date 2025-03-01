@@ -1,4 +1,4 @@
-import { Vector } from '@/types';
+import type { Vector } from './types';
 
 /**
  * Multiplies the vector by a scalar value and returns the resulting vector.

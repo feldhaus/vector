@@ -1,6 +1,6 @@
-import { mag } from '@/mag';
-import { Vector } from '@/types';
-import { div } from '@/div';
+import type { Vector } from './types';
+import { div } from './div';
+import { mag } from './mag';
 
 /**
  * Normalizes a given vector to have a magnitude of 1.

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { distanceBetween, Vector } from '@/index';
+import { distanceBetween, Vector } from 'src/index';
 
 describe('distanceBetween', () => {
   it('should return the correct distance between two vectors', () => {

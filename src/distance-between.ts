@@ -1,5 +1,5 @@
-import { mag } from '@/mag';
-import { Vector } from '@/types';
+import type { Vector } from './types';
+import { mag } from './mag';
 
 /**
  * Calculates the Euclidean distance between two vectors.

@@ -1,4 +1,4 @@
-import { Vector } from '@/types';
+import type { Vector } from './types';
 
 /**
  * Calculates the angle in radians between two vectors.

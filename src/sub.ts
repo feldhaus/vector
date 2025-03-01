@@ -1,4 +1,4 @@
-import { Vector } from '@/types';
+import type { Vector } from './types';
 
 /**
  * Subtracts the second vector from the first vector and returns the resulting vector.

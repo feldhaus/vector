@@ -5,7 +5,7 @@ import {
   VECTOR_RIGHT,
   VECTOR_UP,
   VECTOR_ZERO,
-} from '@/index';
+} from 'src/index';
 
 describe('angleBetween', () => {
   it('should return the correct angle between two vectors', () => {

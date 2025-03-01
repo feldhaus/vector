@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { mag, Vector } from '@/index';
+import { mag, Vector } from 'src/index';
 
 describe('mag', () => {
   it('should calculate the magnitude of a vector', () => {

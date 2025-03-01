@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { magSqr, Vector, VECTOR_ZERO } from '@/index';
+import { magSqr, Vector, VECTOR_ZERO } from 'src/index';
 
 describe('magSqr', () => {
   it('should return the magnitude squared of a vector with positive components', () => {

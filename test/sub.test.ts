@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sub, Vector, VECTOR_ZERO } from '@/index';
+import { sub, Vector, VECTOR_ZERO } from 'src/index';
 
 describe('sub', () => {
   it('should subtract two vectors correctly', () => {
