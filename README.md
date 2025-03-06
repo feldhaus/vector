@@ -1,6 +1,6 @@
 # @feldhaus/vector
 
-A lightweight vector utility library that provides commonly used vector operations for JavaScript and TypeScript applications.
+A lightweight vector 2D utility library that provides commonly used vector operations for JavaScript and TypeScript applications.
 
 ## Installation
 
@@ -21,6 +21,9 @@ npm install @feldhaus/vector
 - **angleBetween**: Calculates the angle between two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/angleBetween.ts)
 - **distanceBetween**: Calculates the distance between two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/distanceBetween.ts)
 - **normalize**: Normalizes a vector to have a magnitude of 1. [Source](https://github.com/feldhaus/vector/blob/main/src/normalize.ts)
+- **dot**: Calculates the dot product of two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/dot.ts)
+- **cross**: Calculates the cross product of two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/cross.ts)
+- **lerp**: Linearly interpolates between two vectors. [Source](https://github.com/feldhaus/vector/blob/main/src/lerp.ts)
 
 ## Available Constants
 
@@ -72,6 +75,15 @@ const vectorB = { x: 3, y: 4 };
 
 const dotProduct = dot(vectorA, vectorB); // Output: 11
 const crossProduct = dot(vectorA, vectorB); // Output: -2
+```
+
+```typescript
+import { lerp } from '@feldhaus/vector';
+
+const vectorA = { x: 0, y: 0 };
+const vectorB = { x: 10, y: 10 };
+
+const interpolateVector = lerp(vectorA, vectorB, 0.5); // Output: { x: 5, y: 5 }
 ```
 
 ## License
