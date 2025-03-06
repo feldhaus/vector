@@ -86,6 +86,25 @@ const vectorB = { x: 10, y: 10 };
 const interpolateVector = lerp(vectorA, vectorB, 0.5); // Output: { x: 5, y: 5 }
 ```
 
+## Usage in Browser
+
+You can also include the library directly in your HTML file using a UMD build:
+
+```html
+<script src="https://unpkg.com/@feldhaus/vector/dist/index.umd.js"></script>
+```
+
+This will expose the library as `FVector` on the global window object, allowing you to use the functions like this:
+
+```html
+<script>
+  const vectorA = { x: 1, y: 2 };
+  const vectorB = { x: 3, y: 4 };
+  const addedVector = FVector.add(vectorA, vectorB);
+  console.log(addedVector); // Output: { x: 4, y: 6 }
+</script>
+```
+
 ## License
 
 [MIT](LICENSE)

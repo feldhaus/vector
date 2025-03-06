@@ -7,7 +7,8 @@
   "module": "dist/index.esm.js",
   "exports": {
     "import": "./dist/index.esm.js",
-    "require": "./dist/index.cjs.js"
+    "require": "./dist/index.cjs.js",
+    "types": "./dist/index.d.ts"
   },
   "browser": {
     "module": "./dist/index.esm.min.js",
@@ -60,6 +61,6 @@
     "vitest": "^3.0.6"
   },
   "dependencies": {
-    "@feldhaus/math": "^1.0.8"
+    "@feldhaus/math": "^1.0.9"
   }
 }

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@feldhaus/math':
-        specifier: ^1.0.8
-        version: 1.0.8
+        specifier: ^1.0.9
+        version: 1.0.9
     devDependencies:
       '@rollup/plugin-terser':
         specifier: ^0.4.4
@@ -239,8 +239,8 @@ packages:
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@feldhaus/math@1.0.8':
-    resolution: {integrity: sha512-FTlcDupxumbDNacen21bTOa4DmfkLvmdKBD37Xc3g8V4rN1EYY011PaTIrphZg07FplZYMQAnP/gu//9alKw6w==}
+  '@feldhaus/math@1.0.9':
+    resolution: {integrity: sha512-Iaxax24udrtxLnOkQmd+qy/eGMN+PwvIjmIWOThnvwYykd9ebaDen0qExS5onkZLSPJFxr6ZcGF3dRFVj1wHlw==}
 
   '@humanwhocodes/config-array@0.13.0':
     resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
@@ -1835,7 +1835,7 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@feldhaus/math@1.0.8': {}
+  '@feldhaus/math@1.0.9': {}
 
   '@humanwhocodes/config-array@0.13.0':
     dependencies:
