@@ -5,9 +5,13 @@
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "exports": {
+    "import": "./dist/index.esm.js",
+    "require": "./dist/index.cjs.js"
+  },
   "browser": {
-    "module": "dist/index.esm.min.js",
-    "main": "dist/index.umd.min.js"
+    "module": "./dist/index.esm.min.js",
+    "main": "./dist/index.umd.min.js"
   },
   "types": "dist/index.d.ts",
   "scripts": {
