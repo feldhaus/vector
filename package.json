@@ -23,7 +23,9 @@
     "clean": "rimraf dist",
     "build": "npm run clean && rollup -c",
     "prepare": "npm run build",
-    "release": "npm version patch && git push --tags"
+    "release:major": "npm version major && git push --tags",
+    "release:minor": "npm version minor && git push --tags",
+    "release:patch": "npm version patch && git push --tags"
   },
   "keywords": [
     "vector",
