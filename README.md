@@ -58,13 +58,14 @@ const magnitudeSquared = magSqr(vectorA); // Output: 5
 ```
 
 ```typescript
-import { angleBetween, distanceBetween } from '@feldhaus/vector';
+import { angleBetween, distanceBetween, fromAngle } from '@feldhaus/vector';
 
 const vectorA = { x: 1, y: 0 };
 const vectorB = { x: 0, y: 1 };
 
 const angle = angleBetween(vectorA, vectorB); // Output: 1.5707963267948966 (which is π/2 radians or 90 degrees)
 const distance = distanceBetween(vectorA, vectorB); // Output: : 1.41
+const vector = fromAngle(Math.PI); // Output: { x: -1, y: 0 }
 ```
 
 ```typescript

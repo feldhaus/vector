@@ -5,16 +5,16 @@
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "exports": {
+    "types": "./dist/index.d.ts",
     "import": "./dist/index.esm.js",
-    "require": "./dist/index.cjs.js",
-    "types": "./dist/index.d.ts"
+    "require": "./dist/index.cjs.js"
   },
   "browser": {
     "module": "./dist/index.esm.min.js",
     "main": "./dist/index.umd.min.js"
   },
-  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint src test --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint src test --ext .ts,.tsx,.js,.jsx --fix",
@@ -30,6 +30,7 @@
     "unity",
     "2d",
     "magnitude",
+    "fromAngle",
     "angleBetween",
     "distanceBetween",
     "normalize",
