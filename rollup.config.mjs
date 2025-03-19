@@ -33,6 +33,7 @@ export default [
         format: 'umd',
         name: 'FVector',
         sourcemap: true,
+        globals: { '@feldhaus/math': 'FMath' },
       },
       {
         file: 'dist/index.umd.min.js',
@@ -40,8 +41,10 @@ export default [
         name: 'FVector',
         sourcemap: true,
         plugins: [terser()],
+        globals: { '@feldhaus/math': 'FMath' },
       },
     ],
+    external: ['@feldhaus/math'],
     plugins: [
       typescript({
         tsconfig: './tsconfig.json',
